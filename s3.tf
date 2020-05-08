@@ -8,3 +8,9 @@ resource "aws_s3_bucket" "name" {
   acl = "private"  
   
 }
+
+resource "aws_s3_bucket" "name123" {
+  bucket = "my-s3-bucket-123-akbar-2snd-bucket"
+  acl = "private"  
+  
+}
