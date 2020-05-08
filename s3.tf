@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "name" {
-  bucket = "var.bucket"
-  acl = "var.bucket_acl"  
+  bucket = "my-s3-bucket-123-akbar"
+  acl = "private"  
   
 }
