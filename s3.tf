@@ -10,7 +10,7 @@ resource "aws_s3_bucket" "name" {
 }
 
 resource "aws_s3_bucket" "name123" {
-  bucket = "my-s3-bucket-123-akbar-2snd-bucket"
+  bucket = "my-s3-bucket-123-akbar-2nd-bucket"
   acl = "private"  
   
 }
